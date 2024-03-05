@@ -4947,6 +4947,58 @@ Description: production-quality unwinder
  or to operate on another process (aka remote), but only the local path has
  been implemented. Remote unwinding remains as future work.
 
+Package: libvirglrenderer-dev
+Source: virglrenderer
+Version: 1.0.0-1
+Architecture: arm64
+Maintainer: Gert Wollny <gewo@debian.org>
+Installed-Size: 37
+Depends: libvirglrenderer1 (= 1.0.0-1)
+Filename: ./pool/libvirglrenderer-dev_1.0.0-1_arm64.deb
+Size: 9632
+MD5sum: da0a849e575f37ecf870ed1015bafedd
+SHA1: fb0cb05652cb2c984e26067e2d32daf85c5a7197
+SHA256: ef49edcf3b303edf0eb8b50d07c56b51c0bc0c1d7bbc2b89b7bd7e6a857251f9
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://virgil3d.github.io/
+Description: virtual GPU for KVM virtualization - headers
+ Library used by qemu to implement 3D GPU support for the virtio GPU.
+ .
+ Virgil is a research project to investigate the possibility of creating
+ a virtual 3D GPU for use inside qemu virtual machines, that allows the
+ guest operating system to use the capabilities of the host GPU
+ to accelerate 3D rendering. The plan is to have a guest GPU that is fully
+ independent of the host GPU.
+ .
+ This package contains the development files and headers.
+
+Package: libvirglrenderer1
+Source: virglrenderer
+Version: 1.0.0-1
+Architecture: arm64
+Maintainer: Gert Wollny <gewo@debian.org>
+Installed-Size: 1633
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.38), libepoxy0 (>= 1.5.4), libgbm1 (>= 8.1~0), libva-drm2 (>= 1.1.0), libva2 (>= 2.2.0), libvulkan1 (>= 1.2.131.2), libx11-6
+Filename: ./pool/libvirglrenderer1_1.0.0-1_arm64.deb
+Size: 366256
+MD5sum: 0c4405a196f418e72b44f2a131c047dc
+SHA1: 8bc72a7695ef6ca7bd258cbff199fed24273279b
+SHA256: 26312099f26e8130628f33be4fdd187f2641112590c392e5cbf35fd6a4ec0c1c
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://virgil3d.github.io/
+Description: virtual GPU for KVM virtualization
+ Library used by qemu to implement 3D GPU support for the virtio GPU.
+ .
+ Virgil is a research project to investigate the possibility of creating
+ a virtual 3D GPU for use inside qemu virtual machines, that allows the
+ guest operating system to use the capabilities of the host GPU
+ to accelerate 3D rendering. The plan is to have a guest GPU that is fully
+ independent of the host GPU.
+
 Package: lld-17
 Source: llvm-toolchain-17
 Version: 1:17.0.6-5
@@ -5420,6 +5472,28 @@ Description: Machine-readable files for the SPIR-V Registry
   - The XML registry file.
  .
  For more info, see https://github.com/KhronosGroup/SPIRV-Headers
+
+Package: virgl-server
+Source: virglrenderer
+Version: 1.0.0-1
+Architecture: arm64
+Maintainer: Gert Wollny <gewo@debian.org>
+Installed-Size: 1176
+Depends: libvirglrenderer1 (= 1.0.0-1), libc6 (>= 2.34), libvulkan1 (>= 1.2.131.2)
+Filename: ./pool/virgl-server_1.0.0-1_arm64.deb
+Size: 190540
+MD5sum: b1b886a7ff87f975490bbace763e414c
+SHA1: b244a6d5641db3e98fc9e24b46c1406f2abf1118
+SHA256: 2eb41954cc49479f57c81d9c01aad912d0217e9efef8679c8e1c60f4de104580
+Section: otherosfs
+Priority: optional
+Homepage: https://virgil3d.github.io/
+Description: virtual GPU for KVM virtualization - vtest server used
+ for testing and container virtualization
+ .
+ Virgl is a software to separate OpenGL rendering from the host GPU
+ The vtest server provides the means to do this without going through
+ full virtualization
 
 Package: wasi-libc
 Version: 0.0~git20230113.4362b18-2
