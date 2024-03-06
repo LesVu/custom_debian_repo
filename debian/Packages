@@ -1163,6 +1163,24 @@ Description: x86 and x86-64 Linux emulator
  .
  FEX is very much work in progress, so expect things to change.
 
+Package: fex-emu
+Version: 2403.0.0
+Architecture: arm64
+Maintainer: FEX-Emu Maintainers <team@fex-emu.com>
+Installed-Size: 31149
+Depends: libc6, libstdc++6, libepoxy0, libsdl2-2.0-0, libegl1, libx11-6, squashfuse
+Conflicts: qemu-user-static, box64, box86
+Filename: ./pool/fex-emu-FEX-2403_aarch64.deb
+Size: 10090552
+MD5sum: 311471c5480c2392bd37c02d5839677f
+SHA1: 3907f3976d02a43413afe6c8c17a96004fd5c296
+SHA256: 15ddb2eafb4702d7f4bc55b9e1fb2a9b3a089f31e9af9d868203e52721f8c77f
+Section: devel
+Priority: optional
+Description: x86 and x86-64 Linux emulator
+ .
+ FEX is very much work in progress, so expect things to change.
+
 Package: flang-17
 Source: llvm-toolchain-17
 Version: 1:17.0.6-5
