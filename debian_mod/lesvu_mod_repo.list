@@ -1,1 +1,0 @@
-deb [signed-by=/etc/apt/trusted.gpg.d/lesvu_repo.gpg] https://lesvu.github.io/custom_debian_repo/debian_mod ./

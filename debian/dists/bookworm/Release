@@ -1,0 +1,29 @@
+Origin: lesvu.github.io
+Label: lesvu.github.io
+Suite: stable
+Codename: bookworm
+Date: Fri, 08 Mar 2024 11:44:23 UTC
+Architectures: arm64
+Components: main debian_mod
+Description: Debian arm64 custom github repository
+MD5Sum:
+ 3f99206699330918dfee1cf4b2a74364 226239 main/binary-arm64/Packages
+ 67a63e5e6bb2815a1de804b42b9da53f 44936 main/binary-arm64/Packages.gz
+ 75bd04a7065b9b28f29a8004dd0a5d97 150 main/binary-arm64/Release
+ 8e343685b09da95f4871101c85ec5416 19793 debian_mod/binary-arm64/Packages
+ eb18160f8312de0002dc38d62ae9d679 4966 debian_mod/binary-arm64/Packages.gz
+ 7587167047612715522eea690f6256d2 156 debian_mod/binary-arm64/Release
+SHA1:
+ 6986be1a5897f8e6aa8c564416fd9e3860d1493e 226239 main/binary-arm64/Packages
+ caa807469142df4cec9d8a03335e147bb95da7f4 44936 main/binary-arm64/Packages.gz
+ 386db9c9fe905d58698c484ee610e98481a24eb0 150 main/binary-arm64/Release
+ b8637d16e82ddbad56d777f3a2175a81d2ceb916 19793 debian_mod/binary-arm64/Packages
+ 4330400adb46be19c2aa22af010f76e1851599f4 4966 debian_mod/binary-arm64/Packages.gz
+ 105b299bbb1e4f47b9ad4ef3c45dc5ae2bce9ac2 156 debian_mod/binary-arm64/Release
+SHA256:
+ 1e68d414175964dc04e41d61a5a821bdb7305723ebed4ab09baf2d714ae875e7 226239 main/binary-arm64/Packages
+ 7507aab69e266740cdbfb31a5aa305ecfd22fb5a8686c9800f39d2445160b1f7 44936 main/binary-arm64/Packages.gz
+ cc1907663e9aadc9551850eeb4779f1cb3f113a1d8765692f42edc482d6247b8 150 main/binary-arm64/Release
+ 400c83b88327181cc8963a054116a00feba25487a6d907697c771b3410773481 19793 debian_mod/binary-arm64/Packages
+ d111f25f6d1fde0f021a7c85c341c87dd55f3d4d7df4bedb4497ec603daf23b9 4966 debian_mod/binary-arm64/Packages.gz
+ d82cdbd299b9b31cc9da2a322319447986c06d6821c35a7646d0075a4bbf2e19 156 debian_mod/binary-arm64/Release
