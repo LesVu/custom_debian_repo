@@ -1,0 +1,8 @@
+Origin: lesvu.github.io
+Label: lesvu.github.io
+Suite: stable
+Codename: bookworm
+Architectures: arm64
+Components: main debian_mod
+Description: Debian arm64 custom github repository
+SignWith: 5DD5A6B6
