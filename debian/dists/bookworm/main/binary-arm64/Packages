@@ -1173,24 +1173,6 @@ Description: Tools for transcoding, streaming and playing of multimedia files
   * ffprobe: a simple multimedia stream analyzer
   * qt-faststart: a utility to rearrange Quicktime files
 
-Package: ffmpeg-dbgsym
-Source: ffmpeg
-Version: 7:6.1.1-2
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 787
-Depends: ffmpeg (= 7:6.1.1-2)
-Priority: optional
-Section: other
-Filename: pool/main/f/ffmpeg/ffmpeg-dbgsym_6.1.1-2_arm64.deb
-Size: 697684
-SHA256: 85b33c9084257461864f5d2a86b4d87a8e9ebc9a259e5cf799d9582d5cb5a80d
-SHA1: d1c3f55d594bb9df46e8efabdebc8888a18ed3db
-MD5sum: 90d568147acf29a441279ead95a41aa1
-Description: debug symbols for ffmpeg
-Build-Ids: 813fc08fd990dfed3910290a798adb2b1cd9e4e9 d338d762231217a8fbeedb66e7fa605e711cfd30 e32612fd7226a1fb70a990353eb8eca95ab8b76e fab885cd0b6d535557f5b2a438c32c78511dc8fd
-
 Package: ffmpeg-doc
 Source: ffmpeg
 Version: 7:6.1.1-2
@@ -3471,25 +3453,6 @@ Description: FFmpeg library with additional de/encoders for audio/video codecs
  Apache License 2.0, the resulting binaries are distributed under the
  GPL version 3 or later.
 
-Package: libavcodec-extra60-dbgsym
-Source: ffmpeg
-Version: 7:6.1.1-2
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 19845
-Depends: libavcodec-extra60 (= 7:6.1.1-2)
-Multi-Arch: same
-Priority: optional
-Section: other
-Filename: pool/main/f/ffmpeg/libavcodec-extra60-dbgsym_6.1.1-2_arm64.deb
-Size: 19280576
-SHA256: 10335b8e4dc51ad42112b978327b7af6747258f9803273bd5715aed31d595622
-SHA1: 21ded850314c9f623559f96ddb7c908d96e04500
-MD5sum: ff5dd35e293cecdd991216d0f0948e45
-Description: debug symbols for libavcodec-extra60
-Build-Ids: a28fd220ca2f320ecb4d75d913bc412ea27b8b99
-
 Package: libavcodec60
 Source: ffmpeg
 Version: 7:6.1.1-2
@@ -3522,25 +3485,6 @@ Description: FFmpeg library with de/encoders for audio/video codecs - runtime fi
  codecs as well as for experimentation.
  .
  This package contains the runtime files.
-
-Package: libavcodec60-dbgsym
-Source: ffmpeg
-Version: 7:6.1.1-2
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 19821
-Depends: libavcodec60 (= 7:6.1.1-2)
-Multi-Arch: same
-Priority: optional
-Section: other
-Filename: pool/main/f/ffmpeg/libavcodec60-dbgsym_6.1.1-2_arm64.deb
-Size: 19259668
-SHA256: f24ddf0e56470d47c473b7c674d4ab87941b03ba5d76661e73c62e77c830e9ae
-SHA1: 59662c701c1429d1392c9f8988bb9dbe0250b26c
-MD5sum: af33ecae8cbb2aa177388a79cd098678
-Description: debug symbols for libavcodec60
-Build-Ids: 63b9b00f153402766e10b87ccbb4b1034386853c
 
 Package: libavdevice-dev
 Source: ffmpeg
@@ -3597,25 +3541,6 @@ Description: FFmpeg library for handling input and output devices - runtime file
  output devices, including Video4Linux2, VfW, DShow, and ALSA.
  .
  This package contains the runtime files.
-
-Package: libavdevice60-dbgsym
-Source: ffmpeg
-Version: 7:6.1.1-2
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 261
-Depends: libavdevice60 (= 7:6.1.1-2)
-Multi-Arch: same
-Priority: optional
-Section: other
-Filename: pool/main/f/ffmpeg/libavdevice60-dbgsym_6.1.1-2_arm64.deb
-Size: 218532
-SHA256: f5bc37d8e0fc7a7ebd12d3e7bcfe819d4159ed33b0bd0e8ecdf8973c65edf540
-SHA1: c3f43263fb3f8d4758fc9a6cd259ec651b945836
-MD5sum: ac5de57c189712be1a4071e36a0b5e77
-Description: debug symbols for libavdevice60
-Build-Ids: 7a0fde42ee4da378103cbd71d1c2446d52c07927
 
 Package: libavfilter-dev
 Source: ffmpeg
@@ -3706,25 +3631,6 @@ Description: FFmpeg library with extra media filters - runtime files
  Apache License 2.0, the resulting binaries are distributed under the
  GPL version 3 or later.
 
-Package: libavfilter-extra9-dbgsym
-Source: ffmpeg
-Version: 7:6.1.1-2
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 5966
-Depends: libavfilter-extra9 (= 7:6.1.1-2)
-Multi-Arch: same
-Priority: optional
-Section: other
-Filename: pool/main/f/ffmpeg/libavfilter-extra9-dbgsym_6.1.1-2_arm64.deb
-Size: 5678676
-SHA256: 247ac384ef6c8dc9c786e881bbdec2d8739d1ae2bcfbbad6527b9efbe9c31d9f
-SHA1: e2a32a07714703aac3bc9577ed530066b3aef59b
-MD5sum: baad1fd924e795c4613a50097c96e587
-Description: debug symbols for libavfilter-extra9
-Build-Ids: 69e08f9e8dd65312d01b97a4b9f7ea78c4907256
-
 Package: libavfilter9
 Source: ffmpeg
 Version: 7:6.1.1-2
@@ -3751,25 +3657,6 @@ Description: FFmpeg library containing media filters - runtime files
  several filters, sources and sinks.
  .
  This package contains the runtime files.
-
-Package: libavfilter9-dbgsym
-Source: ffmpeg
-Version: 7:6.1.1-2
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 5961
-Depends: libavfilter9 (= 7:6.1.1-2)
-Multi-Arch: same
-Priority: optional
-Section: other
-Filename: pool/main/f/ffmpeg/libavfilter9-dbgsym_6.1.1-2_arm64.deb
-Size: 5675400
-SHA256: d45ae897ae0c6492429a52be620272f52272acfb329acc1f5fd05604c7acd56b
-SHA1: a72973cb143bcc457321e19b06ff1fb46bde1928
-MD5sum: 687bccd1c8a2326be6d5feb96438eb35
-Description: debug symbols for libavfilter9
-Build-Ids: 3fbf8eb3cddee708877d34abee57a4632635a17b
 
 Package: libavformat-dev
 Source: ffmpeg
@@ -3864,25 +3751,6 @@ Description: FFmpeg library with additional (de)muxers for multimedia containers
  Apache License 2.0 or GPL version 3, the resulting binaries are distributed
  under the GPL version 3 or later.
 
-Package: libavformat-extra60-dbgsym
-Source: ffmpeg
-Version: 7:6.1.1-2
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 3504
-Depends: libavformat-extra60 (= 7:6.1.1-2)
-Multi-Arch: same
-Priority: optional
-Section: other
-Filename: pool/main/f/ffmpeg/libavformat-extra60-dbgsym_6.1.1-2_arm64.deb
-Size: 3341320
-SHA256: d227d722b5906b3f8ea6cabc1f832a84a6b084928de60c6798eef4b2291c047e
-SHA1: 970cd4ae1f91d7cfe26efe176770ffd85ff98cd9
-MD5sum: 8335b1a78206eb9e27495bafc3f79191
-Description: debug symbols for libavformat-extra60
-Build-Ids: cfcb1f4a79b77b920aba85f8e7cf9033a45bacab
-
 Package: libavformat60
 Source: ffmpeg
 Version: 7:6.1.1-2
@@ -3911,25 +3779,6 @@ Description: FFmpeg library with (de)muxers for multimedia containers - runtime 
  supports several input and output protocols to access a media resource.
  .
  This package contains the runtime files.
-
-Package: libavformat60-dbgsym
-Source: ffmpeg
-Version: 7:6.1.1-2
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 3492
-Depends: libavformat60 (= 7:6.1.1-2)
-Multi-Arch: same
-Priority: optional
-Section: other
-Filename: pool/main/f/ffmpeg/libavformat60-dbgsym_6.1.1-2_arm64.deb
-Size: 3330268
-SHA256: 7900aee90c6497b381da87cb537b5f830624daa73108aa8a3a15a94aa3575861
-SHA1: 4f610733a89ddc7450c6cb5287c59e661afc5df9
-MD5sum: c5035be16f556f9b8282511e1ed4a0ad
-Description: debug symbols for libavformat60
-Build-Ids: a8810fcfb0da9aef57c6d43eadf3c4555d585eb2
 
 Package: libavutil-dev
 Source: ffmpeg
@@ -3992,25 +3841,6 @@ Description: FFmpeg library with functions for simplifying programming - runtime
  The goal for this library is to be modular, small, efficient and useful.
  .
  This package contains the runtime files.
-
-Package: libavutil58-dbgsym
-Source: ffmpeg
-Version: 7:6.1.1-2
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 797
-Depends: libavutil58 (= 7:6.1.1-2)
-Multi-Arch: same
-Priority: optional
-Section: other
-Filename: pool/main/f/ffmpeg/libavutil58-dbgsym_6.1.1-2_arm64.deb
-Size: 728748
-SHA256: 439a6f9c5782cf54f8e8b72041c3c364eb1ca8c129f53ff4da900ed8a3d595b8
-SHA1: 90d09798cfb0392ebe57275bdfa060db2a2d5d93
-MD5sum: eaafe0262e853eb152152a8b6ac7b6de
-Description: debug symbols for libavutil58
-Build-Ids: 0e8039edc65bd6bf6aeec9a57af80fa95cb3e71b
 
 Package: libbinutils
 Source: binutils
@@ -5481,25 +5311,6 @@ Description: FFmpeg library for post processing - runtime files
  .
  This package contains the runtime files.
 
-Package: libpostproc57-dbgsym
-Source: ffmpeg
-Version: 7:6.1.1-2
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 64
-Depends: libpostproc57 (= 7:6.1.1-2)
-Multi-Arch: same
-Priority: optional
-Section: other
-Filename: pool/main/f/ffmpeg/libpostproc57-dbgsym_6.1.1-2_arm64.deb
-Size: 50380
-SHA256: a3d946257a1c189444676e34982f5e30dbbc9a2d1a4f74ba0cb20cf333183a78
-SHA1: 760de3653f45c5172320696844b9b40ad60a6b36
-MD5sum: 94c61bf41c44d92caeac862b06c2ff12
-Description: debug symbols for libpostproc57
-Build-Ids: b5122813007cf13692ea7e178c2efa5ef2573bc6
-
 Package: libsframe1
 Source: binutils
 Version: 2.41.50.20231227-1
@@ -5707,25 +5518,6 @@ Description: FFmpeg library for audio resampling, rematrixing etc. - runtime fil
  .
  This package contains the runtime files.
 
-Package: libswresample4-dbgsym
-Source: ffmpeg
-Version: 7:6.1.1-2
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 121
-Depends: libswresample4 (= 7:6.1.1-2)
-Multi-Arch: same
-Priority: optional
-Section: other
-Filename: pool/main/f/ffmpeg/libswresample4-dbgsym_6.1.1-2_arm64.deb
-Size: 99472
-SHA256: 3e7c8ef46eef4ae4efbbdf73e57d194da94da3f4552bb75d4b3121dce0db3f8a
-SHA1: f587ab523149242889e4c8cb529abc11174f2252
-MD5sum: bbd2b47686ec4de52b1060bb7d05e286
-Description: debug symbols for libswresample4
-Build-Ids: 8ecfca3e30a75350963016998549e466ad745c1a
-
 Package: libswscale-dev
 Source: ffmpeg
 Version: 7:6.1.1-2
@@ -5799,25 +5591,6 @@ Description: FFmpeg library for image scaling and various conversions - runtime 
     source and destination colorspaces differ.
  .
  This package contains the runtime files.
-
-Package: libswscale7-dbgsym
-Source: ffmpeg
-Version: 7:6.1.1-2
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Installed-Size: 676
-Depends: libswscale7 (= 7:6.1.1-2)
-Multi-Arch: same
-Priority: optional
-Section: other
-Filename: pool/main/f/ffmpeg/libswscale7-dbgsym_6.1.1-2_arm64.deb
-Size: 635168
-SHA256: 41bd326fbbe82bf0054603d7ff94aa4f83a9f54bba387b734e34949d276af4f1
-SHA1: 1e994d8fc42c3b348329bff0d2196ed74bfb33f3
-MD5sum: f9133114c5a4d8bb10ab7b9c8cf98539
-Description: debug symbols for libswscale7
-Build-Ids: 3eff12a6279555de79043f14eea96a581e572026
 
 Package: libtsan2
 Source: gcc-13
