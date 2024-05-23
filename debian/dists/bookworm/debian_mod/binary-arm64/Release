@@ -1,0 +1,6 @@
+Archive: stable
+Component: debian_mod
+Origin: lesvu.github.io
+Label: lesvu.github.io
+Architecture: arm64
+Description: Debian arm64 custom github repository
