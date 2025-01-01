@@ -5,44 +5,44 @@ Origin: lesvu.github.io
 Label: lesvu.github.io
 Suite: stable
 Codename: bookworm
-Date: Sat, 07 Dec 2024 18:52:44 UTC
+Date: Wed, 01 Jan 2025 09:25:01 UTC
 Architectures: arm64
 Components: main debian_mod
 Description: Debian arm64 custom github repository
 MD5Sum:
- 87a282a11b1707d9c6447fce45797b09 1098 main/binary-arm64/Packages
- 3bf205f98ff163d293d3dac83e8aeca3 662 main/binary-arm64/Packages.gz
+ d7f90d6b126381d10c852ccffb664e86 1098 main/binary-arm64/Packages
+ 528f182a53d47fc61f2e92f25b3e85ed 660 main/binary-arm64/Packages.gz
  75bd04a7065b9b28f29a8004dd0a5d97 150 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 debian_mod/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 debian_mod/binary-arm64/Packages.gz
  7587167047612715522eea690f6256d2 156 debian_mod/binary-arm64/Release
 SHA1:
- c659e27902a231c912bb97b96050e2cc1af7e577 1098 main/binary-arm64/Packages
- 3b66c2fd6470d19eb78a8b2e69c94a6c2a07e748 662 main/binary-arm64/Packages.gz
+ 36f56a532db0d97a3dce7563342c9fb0ad222ac8 1098 main/binary-arm64/Packages
+ dfa03245d1112542f06e8552cf0237892b7a566b 660 main/binary-arm64/Packages.gz
  386db9c9fe905d58698c484ee610e98481a24eb0 150 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 debian_mod/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 debian_mod/binary-arm64/Packages.gz
  105b299bbb1e4f47b9ad4ef3c45dc5ae2bce9ac2 156 debian_mod/binary-arm64/Release
 SHA256:
- 3a06154e3b13434488825956cc3f1635e8925b6ad53cdaecd505d425ba42f9f3 1098 main/binary-arm64/Packages
- 7c9c0e14db54bb79fed217dbdd88032f97615a1274f7cde10279d645059243b7 662 main/binary-arm64/Packages.gz
+ 21a04f895d341c14d6eddf10c24045579a3051135baf6dff1f4ea7cc852a3769 1098 main/binary-arm64/Packages
+ 4071557ec4ad8f62ab10bdba61638297aff40d0c11df4e9e4dd784be7366aa37 660 main/binary-arm64/Packages.gz
  cc1907663e9aadc9551850eeb4779f1cb3f113a1d8765692f42edc482d6247b8 150 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 debian_mod/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 debian_mod/binary-arm64/Packages.gz
  d82cdbd299b9b31cc9da2a322319447986c06d6821c35a7646d0075a4bbf2e19 156 debian_mod/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEzsF2YecX6Tc5O+t8gd7g7V3VprYFAmdUmXwACgkQgd7g7V3V
-prYbuw/9HDISSpzzod6xmtVTl/F+ejqf2R4j6eKxhKos0mlVzVKGakBWGvX8jwQC
-vBndP4LsA/GDWfRkEkd7+Cg9Q2lf1xJJ5Mu+DCJ3U1brHgVY2A/+2fDWN+epbJwM
-NCKnIBPfQOfI07b/467f4NKGDNJD2ElSD1GsLbGyRk0DS4Xh0Xsw0Dwt54GpJ3rT
-4XbRQUIe+uacF+/+8s/rfmzYrpWS+jRf3h0U4+OuGdZnJQyuBteYE3/ko3RMrKuC
-JG3zlSkYcwwFHw/XsB81C9IU1S71MlRENC36XWuQFJmr7USsNIeyt6k9HNOXVnjV
-C/njeJEpDPct+jd7kcmJSA5Re99xFRSeQZ7abamAD8C52ERqy6U44y6vbZ00WRwZ
-qTPmk1ArmKRmBrsCqTJ89W/WWmzQqQOtZSvWrtLCBOi5aiAkneXxFZoOBje386OG
-WYaza3Pa6er/U7jEZy7nvpLSSN+jVPrXQr9FqpxtyC1NRf2R0f9+nP1pJ1tSTEny
-nbu2BeG6qlahcYvwZXx/QreUfDzDJ+hQZoOv0GSPzNVP8M0pqet3mCUPRgGoufrx
-Zu20axDM4yv0PJ2XcyVvn7hAdRLqinMIEoNOtvYNy0pb5rgsBtZ6zmf7R0abGooC
-WVpdVeyTFZ9C2CiSH3oTUptVnRxrzMJS9RKAO0nDDpgj5AiDESI=
-=17jF
+iQIzBAEBCgAdFiEEzsF2YecX6Tc5O+t8gd7g7V3VprYFAmd1Ce0ACgkQgd7g7V3V
+prbGBxAAvMwH/s8xufWZTt3isGspJASDdt+5sr4ddlrfsvhMq4LzAAc/XErUil+4
+VXgmjAluMz7kBw0oKfwZGcD6hhjvatswymEMm1WPn8AIpBjldUEU8lJ0ayT0PHIs
+lEnqWLyiJSdvDkLwm9QaLiGtjnwTSLUiNLJIqGIgOgtYnI4TyCGLIqna5WcRDpaP
+q0x2PJjwGrgkv8eZ/rnAqIx1mVHg+e6vqdj36KTJW2GAsuGqkCxEOpbDMzYLlYwn
+fGGLoY7vIzYGH45nZyp44vgTqj+jnBavN9Z179w0fPJsm9ApJMgGKynGjMJe4dF2
+JFdIpDXkjYPbbT49KMwk0nMPIipJfs/GwWgiOkZ0sOgM216/Ls0TCFAuYS+YtXyY
+Nuzs+erTHmupbb04yGo6GegCiwdTVURRyxaVNFZox85vAF6Xe05pCROx1z8EMyxq
+1M9mRFURYfBQ4eMv7xd9wSQfI79Pq6tPoB6ZVtc+X6LOunQPC+HL0RbYsF7BpS3N
+WmFhoirKJRuoQl5wnxaA3XI2nlAAzAFaOhbgI7UsGWGl4ETYkZAMhIRDigHpM5i1
+Qr/UJpnK+j//0xdENBYkIDjCdUqJqSbjHe8PlhjEssQ28t0w1qtVOEyXxJ13CvM7
+XJRMGpce7REB/8YCYItcUb/PcKNB49XU3nmMvj1cvae6doBRnq4=
+=zHTu
 -----END PGP SIGNATURE-----

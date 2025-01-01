@@ -2,27 +2,27 @@ Origin: lesvu.github.io
 Label: lesvu.github.io
 Suite: stable
 Codename: bookworm
-Date: Sat, 07 Dec 2024 18:52:44 UTC
+Date: Wed, 01 Jan 2025 09:25:01 UTC
 Architectures: arm64
 Components: main debian_mod
 Description: Debian arm64 custom github repository
 MD5Sum:
- 87a282a11b1707d9c6447fce45797b09 1098 main/binary-arm64/Packages
- 3bf205f98ff163d293d3dac83e8aeca3 662 main/binary-arm64/Packages.gz
+ d7f90d6b126381d10c852ccffb664e86 1098 main/binary-arm64/Packages
+ 528f182a53d47fc61f2e92f25b3e85ed 660 main/binary-arm64/Packages.gz
  75bd04a7065b9b28f29a8004dd0a5d97 150 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 debian_mod/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 debian_mod/binary-arm64/Packages.gz
  7587167047612715522eea690f6256d2 156 debian_mod/binary-arm64/Release
 SHA1:
- c659e27902a231c912bb97b96050e2cc1af7e577 1098 main/binary-arm64/Packages
- 3b66c2fd6470d19eb78a8b2e69c94a6c2a07e748 662 main/binary-arm64/Packages.gz
+ 36f56a532db0d97a3dce7563342c9fb0ad222ac8 1098 main/binary-arm64/Packages
+ dfa03245d1112542f06e8552cf0237892b7a566b 660 main/binary-arm64/Packages.gz
  386db9c9fe905d58698c484ee610e98481a24eb0 150 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 debian_mod/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 debian_mod/binary-arm64/Packages.gz
  105b299bbb1e4f47b9ad4ef3c45dc5ae2bce9ac2 156 debian_mod/binary-arm64/Release
 SHA256:
- 3a06154e3b13434488825956cc3f1635e8925b6ad53cdaecd505d425ba42f9f3 1098 main/binary-arm64/Packages
- 7c9c0e14db54bb79fed217dbdd88032f97615a1274f7cde10279d645059243b7 662 main/binary-arm64/Packages.gz
+ 21a04f895d341c14d6eddf10c24045579a3051135baf6dff1f4ea7cc852a3769 1098 main/binary-arm64/Packages
+ 4071557ec4ad8f62ab10bdba61638297aff40d0c11df4e9e4dd784be7366aa37 660 main/binary-arm64/Packages.gz
  cc1907663e9aadc9551850eeb4779f1cb3f113a1d8765692f42edc482d6247b8 150 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 debian_mod/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 debian_mod/binary-arm64/Packages.gz
