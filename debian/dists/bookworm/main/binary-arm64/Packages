@@ -4,17 +4,17 @@ Conflicts: qemu-user-static, box64, box86
 Depends: libc6, libstdc++6, libepoxy0, libsdl2-2.0-0, libegl1, libx11-6, squashfuse
 Priority: optional
 Section: other
-Filename: pool/main/f/fex-emu/fex-emu_2412.0.0_arm64.deb
-Size: 4504950
-SHA256: d126e9a1e43438b7ea06efb3c0b1c79aa47d175b9ff5701e6dd9f32be4979c98
-SHA1: ed416306165f6b1b753a820e163ef68f85386480
-MD5sum: 7ddeadfb2434d884c57a404eb5fccc14
+Filename: pool/main/f/fex-emu/fex-emu_2501.0.0_arm64.deb
+Size: 4694002
+SHA256: ae239c3809e9937ed276c2165e97c7d3cfe534a4c9a94cdfb3152616e6868ffb
+SHA1: c776e4d09152c77c0b7f90790f24c78a84deb41d
+MD5sum: f08e6d5ae10174024bb76b3fae304304
 Description: x86 and x86-64 Linux emulator
  .
  FEX is very much work in progress, so expect things to change.
 Maintainer: FEX-Emu Maintainers <team@fex-emu.com>
-Version: 2412.0.0
-Installed-Size: 16049
+Version: 2501.0.0
+Installed-Size: 16614
 
 Package: neovim
 Architecture: arm64
