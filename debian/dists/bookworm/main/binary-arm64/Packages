@@ -4,17 +4,17 @@ Conflicts: qemu-user-static, box64, box86
 Depends: libc6, libstdc++6, libepoxy0, libsdl2-2.0-0, libegl1, libx11-6, squashfuse
 Priority: optional
 Section: other
-Filename: pool/main/f/fex-emu/fex-emu_2505.0.0_arm64.deb
-Size: 4772768
-SHA256: 258cadb0c550415d29af65060f8cfd2daa0e79ef49dbdc6b932be682618dcc8c
-SHA1: d79989f5db4d013dbc2ee0d812a4f1039d82e042
-MD5sum: 6c8e72ce57d76ab4c4c2bc733771886c
+Filename: pool/main/f/fex-emu/fex-emu_2509.1.0_arm64.deb
+Size: 4694672
+SHA256: 45217ac7fb2cb633550a70d458f3b459652b27b707d554d668def21f0bdc2de5
+SHA1: 33ed210f03454fc64ab53569bfc51cccff6f7af9
+MD5sum: ba85f50952d10623a6d1df4551ea19cf
 Description: x86 and x86-64 Linux emulator
  .
- FEX is very much work in progress, so expect things to change.
+ FEX allows you to run x86 applications on ARM64 Linux devices. It offers broad compatibility with both 32-bit and 64-bit binaries, and it can be used alongside Wine/Proton to play Windows games.
 Maintainer: FEX-Emu Maintainers <team@fex-emu.com>
-Version: 2505.0.0
-Installed-Size: 16964
+Version: 2509.1.0
+Installed-Size: 18055
 
 Package: neovim
 Architecture: arm64
